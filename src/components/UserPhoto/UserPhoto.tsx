@@ -29,7 +29,7 @@ export function UserPhoto({imageUri, sizes = 'NORMAL'}: Props) {
     
     return (
         <Container 
-            colors={[COLORS.PINK, COLORS.YELLOW]} 
+            colors={[COLORS.BLUE, COLORS.YELLOW]} 
             width={containerSize}
             height={containerSize}
             start={{x: 0, y: 0.8}}

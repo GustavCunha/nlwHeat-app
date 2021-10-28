@@ -1,9 +1,10 @@
 export const COLORS = {
     WHITE: '#FFFFFF',
-    GREEN: '#1B873F',
+    GREEN: '#00CC66', //00CC66 - 1B873F
+    BLUE: '#2274A5',
     PINK: '#FF008E',
-    ORANGE: '#FF7A29',
-    YELLOW: '#FFCD1E',
+    ORANGE: '#F75C03', //F75C03 - FF7A29 
+    YELLOW: '#F1C40F', //F1C40F - FFCD1E 
   
     BLACK_PRIMARY: '#09090A',
     BLACK_SECONDARY: '#121214',

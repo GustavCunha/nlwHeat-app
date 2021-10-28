@@ -5,9 +5,10 @@ import {
     Roboto_400Regular,
     Roboto_700Bold
 } from '@expo-google-fonts/roboto';
-import { Text, View } from 'react-native';
+
 import AppLoading from 'expo-app-loading';
 import { Home } from './src/screens/Home/Home';
+import { AuthProvider } from './src/hooks/auth';
 
 export default function App() {
     const [fontsLoaded] = useFonts({
@@ -19,10 +20,10 @@ export default function App() {
         return <AppLoading />
     }else{
         return (
-            <>
-                <StatusBar style="light"/>
+            <AuthProvider>
+                <StatusBar style="light" translucent backgroundColor="transparent"/>
                 <Home />
-            </>
+            </AuthProvider>
         );
     }
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, LogoutButton, LogoutText } from './Header.styles';
 
-import LogoSvg from '../../assets/logo.svg';
+import LogoSvg from '../../assets/logoDoWhile.svg';
 import { TouchableOpacity } from 'react-native';
 import { UserPhoto } from '../UserPhoto/UserPhoto';
 
